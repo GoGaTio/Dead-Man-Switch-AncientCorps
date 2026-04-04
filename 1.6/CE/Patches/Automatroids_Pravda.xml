@@ -7,8 +7,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DMS_Mech_Pravda"]/statBases</xpath>
 				<value>
-					<CarryWeight>185</CarryWeight>
-					<CarryBulk>150</CarryBulk>
+					<CarryWeight>370</CarryWeight>
+					<CarryBulk>300</CarryBulk>
 					<AimingAccuracy>1.15</AimingAccuracy>
 					<MeleeDodgeChance>0.03</MeleeDodgeChance>
 					<MeleeCritChance>0.075</MeleeCritChance>
