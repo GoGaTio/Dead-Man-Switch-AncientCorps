@@ -21,12 +21,13 @@
     <loopFadeout>true</loopFadeout>
     <pausedVolumeFactor>0.5</pausedVolumeFactor>
   </MusicSequenceDef>
-	<SongDef>
-		<defName>DMSAC_Boss_A</defName>
+
+  <SongDef>
+    <defName>DMSAC_Boss_A</defName>
     <label>Black knight</label>
-		<clipPath>AncientCorps/BossMusic_BlackKnight</clipPath>
-		<volume>1.0</volume>
-		<tense>true</tense>
-		<commonality>0</commonality>
-	</SongDef>
+    <clipPath>AncientCorps/BossMusic_BlackKnight</clipPath>
+    <volume>1.0</volume>
+    <tense>true</tense>
+    <commonality>0</commonality>
+  </SongDef>
 </Defs>
