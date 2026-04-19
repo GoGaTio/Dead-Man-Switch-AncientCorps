@@ -33,11 +33,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>
-		<recipeMaker>
-			<researchPrerequisites>
-				<li>PrecisionRifling</li>
-			</researchPrerequisites>
-		</recipeMaker>
+		<recipeMaker inherit="False" />
 		<costList>
 			<Tungsteel>90</Tungsteel>
 			<ComponentStamped>5</ComponentStamped>		
@@ -104,11 +100,12 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
-		<recipeMaker>
+		<recipeMaker inherit="False" />
+		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>PrecisionRifling</li>
 			</researchPrerequisites>
-		</recipeMaker>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>115</Tungsteel>
 			<ComponentStamped>6</ComponentStamped>		
@@ -195,11 +192,12 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.12</MoveSpeed>
 		</equippedStatOffsets>
-		<recipeMaker>
+		<recipeMaker inherit="False" />
+		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>DMS_EquipmentHeavy</li>
 			</researchPrerequisites>
-		</recipeMaker>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>95</Tungsteel>
 			<ComponentStamped>5</ComponentStamped>		
@@ -255,14 +253,15 @@
 			<AccuracyLong>0.38</AccuracyLong>
 			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker>
+		<recipeMaker inherit="False" />
+		<!-- <recipeMaker>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
 			<researchPrerequisites>
 				<li>MultibarrelWeapons</li>
 			</researchPrerequisites>
-		</recipeMaker>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>240</Tungsteel>
 			<ComponentStamped>15</ComponentStamped>
@@ -275,7 +274,6 @@
 				<sprayThicknessCells>3</sprayThicknessCells>
 				<sprayNumExtraCells>24</sprayNumExtraCells> <!-- 要大於或等於發射次數 -->
 				<consumeFuelPerBurst>1</consumeFuelPerBurst>
-
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>DMS_Bullet_CIWS</defaultProjectile>
 				<warmupTime>3</warmupTime>
@@ -334,7 +332,8 @@
 		    <AccuracyLong>0.99</AccuracyLong>
 		    <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker>
+		<recipeMaker inherit="False" />
+		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>DMS_Synthroid</li>
 				<li>DMS_EquipmentHeavy</li>
@@ -342,7 +341,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-		</recipeMaker>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>350</Tungsteel>
 			<ComponentStamped>20</ComponentStamped>

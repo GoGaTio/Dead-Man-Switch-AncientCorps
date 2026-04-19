@@ -14,7 +14,7 @@
   <!-- EN: ventilation fan -->
   <DMSAC_Building_AirFan.label>負壓排風扇</DMSAC_Building_AirFan.label>
   <!-- EN: An active ventilation fan,it seems to be used to discharge heat from underground spaces. -->
-  <DMSAC_Building_AirFan.description>一個主動式負壓風扇，是用來主動排出地下空間的廢棄來使地下設施的進風口能夠更加隱蔽而設置的。</DMSAC_Building_AirFan.description>
+  <DMSAC_Building_AirFan.description>一個主動式負壓風扇，是用來主動排出地下空間的廢氣來使地下設施的進風口能夠更加隱蔽而設置的。</DMSAC_Building_AirFan.description>
   
   <!-- EN: Barrier Gate -->
   <DMSAC_Building_BarrierGate.label>升降門</DMSAC_Building_BarrierGate.label>

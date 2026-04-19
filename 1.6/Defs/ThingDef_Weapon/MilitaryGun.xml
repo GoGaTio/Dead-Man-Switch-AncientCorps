@@ -6,8 +6,8 @@
 		<label>Zlobin Revolver</label>
 		<description>A hunting revolver named after its designer, it uses large-caliber subsonic ammunition that is enough to stop large animals with a single shot. Its more stable recoil than other weapons of the same caliber makes it very popular among explorers and pirate groups on the edge of the world.</description>
 		<weaponClasses>
-		  <li>LongShots</li>
-		  <li>Ranged</li>
+			<li>LongShots</li>
+			<li>Ranged</li>
 		</weaponClasses>
 		<weaponTags>
 			<li>DMS_ZlobinRevolver</li>
@@ -26,12 +26,7 @@
 			<Mass>2.2</Mass>
 			<RangedWeapon_Cooldown>1.62</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker>
-		    <researchPrerequisites>
-      			<li>Gunsmithing</li>
-      			<li>DMS_EquipmentBasis</li>
-    		</researchPrerequisites>
-		</recipeMaker>
+		<recipeMaker inherit="False" />
 		<costList>
 			<Steel>37</Steel>
 			<ComponentStamped>1</ComponentStamped>
@@ -67,15 +62,15 @@
 		<defName>Bullet_DMS_Subsonic_Pistol</defName>
 		<label>subsonic bullet</label>
 		<graphicData>
-		  	<texPath>Things/Projectile/Bullet_Big</texPath>
-		  	<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.8</drawSize>
 		</graphicData>
 		<projectile>
-		  	<damageDef>Bullet</damageDef>
-		  	<stoppingPower>2</stoppingPower>
-		 	<armorPenetrationBase>0.3</armorPenetrationBase>
-		  	<damageAmountBase>16</damageAmountBase>
+			<damageDef>Bullet</damageDef>
+			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.3</armorPenetrationBase>
+			<damageAmountBase>16</damageAmountBase>
 			<speed>48</speed>
 		</projectile>
 	</ThingDef>
@@ -86,8 +81,8 @@
 		<label>Zlobin rifle</label>
 		<description>A special assault rifle named after its designer. during urban combat, it is capable of effectively penetrating the armor of most small and medium-sized mechanoids and causing damage.. However, its long-range accuracy is quite limited due to its speciallized subsonic bullet.\n\nIt also equipped with an underbarrel launcher capable of firing small-caliber grenades.</description>
 		<weaponClasses>
-		  <li>LongShots</li>
-		  <li>Ranged</li>
+			<li>LongShots</li>
+			<li>Ranged</li>
 		</weaponClasses>
 		<weaponTags>
 			<li>DMS_MechWeaponLongRifle</li>
@@ -108,14 +103,9 @@
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-		  <HuntingStealth>0.25</HuntingStealth>
+			<HuntingStealth>0.25</HuntingStealth>
 		</equippedStatOffsets>
-		<recipeMaker>
-		    <researchPrerequisites>
-      			<li>PrecisionRifling</li>
-      			<li>DMS_EquipmentAdvanced</li>
-    		</researchPrerequisites>
-		</recipeMaker>
+		<recipeMaker inherit="False" />
 		<costList>
 			<Steel>55</Steel>
 			<ComponentStamped>2</ComponentStamped>
@@ -144,9 +134,9 @@
 				<ammoCountPerCharge>1</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Biocodable" />
 			<li Class="CompProperties_Art">
 				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
@@ -171,15 +161,15 @@
 		<defName>Bullet_DMS_Subsonic_Rifle</defName>
 		<label>subsonic bullet</label>
 		<graphicData>
-		  	<texPath>Things/Projectile/Bullet_Big</texPath>
-		  	<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.8</drawSize>
 		</graphicData>
 		<projectile>
-		  	<damageDef>Bullet</damageDef>
-		  	<stoppingPower>1.8</stoppingPower>
-		 	<armorPenetrationBase>0.37</armorPenetrationBase>
-		  	<damageAmountBase>14</damageAmountBase>
+			<damageDef>Bullet</damageDef>
+			<stoppingPower>1.8</stoppingPower>
+			<armorPenetrationBase>0.37</armorPenetrationBase>
+			<damageAmountBase>14</damageAmountBase>
 			<speed>48</speed>
 		</projectile>
 	</ThingDef>
@@ -190,8 +180,8 @@
 		<label>Vykhlop rifle</label>
 		<description>A lightweight, large-caliber suppressed rifle capable of penetrating lightly armored and body armored targets at long range. A special silencer that occupies the entire length of the barrel ensures its concealment.</description>
 		<weaponClasses>
-		  <li>LongShots</li>
-		  <li>Ranged</li>
+			<li>LongShots</li>
+			<li>Ranged</li>
 		</weaponClasses>
 		<weaponTags>
 			<li>DMS_VykhlopRifle</li>
@@ -213,13 +203,9 @@
 			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-		  <HuntingStealth>0.75</HuntingStealth>
+			<HuntingStealth>0.75</HuntingStealth>
 		</equippedStatOffsets>
-		<recipeMaker>
-		    <researchPrerequisites>
-      			<li>PrecisionRifling</li>
-    		</researchPrerequisites>
-		</recipeMaker>
+		<recipeMaker inherit="False" />
 		<costList>
 			<Steel>65</Steel>
 			<ComponentStamped>3</ComponentStamped>
@@ -256,15 +242,15 @@
 		<defName>Bullet_DMS_Subsonic_Sniper</defName>
 		<label>subsonic bullet</label>
 		<graphicData>
-		  	<texPath>Things/Projectile/Bullet_Big</texPath>
-		  	<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.8</drawSize>
 		</graphicData>
 		<projectile>
-		  	<damageDef>Bullet</damageDef>
-		  	<stoppingPower>3</stoppingPower>
-		 	<armorPenetrationBase>0.57</armorPenetrationBase>
-		  	<damageAmountBase>34</damageAmountBase>
+			<damageDef>Bullet</damageDef>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.57</armorPenetrationBase>
+			<damageAmountBase>34</damageAmountBase>
 			<speed>48</speed>
 		</projectile>
 		<comps>
@@ -285,7 +271,7 @@
 	<ThingDef ParentName="DMS_AutomatroidGun">
 		<defName>DMS_PKM</defName>
 		<label>Mikhail Machinegun</label>
-		<description>A lightweight machine gun utilizing a bullpup design, which can be effortlessly operated even by humans, providing prolonged and effective fire suppression against numerous lightly armored targets.</description>		
+		<description>A lightweight machine gun utilizing a bullpup design, which can be effortlessly operated even by humans, providing prolonged and effective fire suppression against numerous lightly armored targets.</description>
 		<weaponClasses>
 			<li>LongShots</li>
 			<li>Ranged</li>
@@ -312,16 +298,17 @@
 			<AccuracyLong>0.5</AccuracyLong>
 			<RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker>
-		    <researchPrerequisites>
-      			<li>GasOperation</li>
-      			<li>DMS_EquipmentElite</li>
-    		</researchPrerequisites>
-		</recipeMaker>
+		<recipeMaker inherit="False" />
+		<!-- <recipeMaker>
+			<researchPrerequisites>
+				<li>GasOperation</li>
+				<li>DMS_EquipmentElite</li>
+			</researchPrerequisites>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>70</Tungsteel>
-			<ComponentStamped>4</ComponentStamped>		
-		</costList>	
+			<ComponentStamped>4</ComponentStamped>
+		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -383,12 +370,13 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker>
+		<recipeMaker inherit="False" />
+		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>GasOperation</li>
 				<li>DMS_EquipmentElite</li>
 			</researchPrerequisites>
-		</recipeMaker>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>70</Tungsteel>
 			<ComponentStamped>4</ComponentStamped>
@@ -421,7 +409,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_DMS_CombatShotgun</defName>
 		<label>solid slug</label>
@@ -447,8 +435,8 @@
 		<label>Yekaterin Rifle</label>
 		<description>A bullpup anti-materiel rifle, designed to enable law enforcement units to neutralize heavy automatroid. Its structure is greatly simplified to ensure that even non-enhanced humans can carry and operate this rifle.</description>
 		<weaponClasses>
-		  <li>LongShots</li>
-		  <li>Ranged</li>
+			<li>LongShots</li>
+			<li>Ranged</li>
 		</weaponClasses>
 		<weaponTags>
 			<li>DMS_YekaterinRifle</li>
@@ -470,17 +458,18 @@
 			<RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-		  <MoveSpeed>-0.1</MoveSpeed>
-		</equippedStatOffsets>
-		<recipeMaker>
-		    <researchPrerequisites>
-      			<li>PrecisionRifling</li>
-      			<li>DMS_EquipmentElite</li>
-    		</researchPrerequisites>
-		</recipeMaker>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>		
+		<recipeMaker inherit="False" />
+		<!-- <recipeMaker>
+			<researchPrerequisites>
+				<li>PrecisionRifling</li>
+				<li>DMS_EquipmentElite</li>
+			</researchPrerequisites>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>70</Tungsteel>
-			<ComponentStamped>4</ComponentStamped>		
+			<ComponentStamped>4</ComponentStamped>
 		</costList>
 		<verbs>
 			<li>
@@ -534,14 +523,15 @@
 			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-		  	<MoveSpeed>-0.1</MoveSpeed>
+			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>
-		<recipeMaker>
-		    <researchPrerequisites>
-      			<li>PrecisionRifling</li>
-      			<li>DMS_EquipmentElite</li>
-    		</researchPrerequisites>
-		</recipeMaker>		
+		<recipeMaker inherit="False" />
+		<!-- <recipeMaker>
+			<researchPrerequisites>
+				<li>PrecisionRifling</li>
+				<li>DMS_EquipmentElite</li>
+			</researchPrerequisites>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>90</Tungsteel>
 			<ComponentStamped>4</ComponentStamped>

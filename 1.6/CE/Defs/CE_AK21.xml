@@ -20,12 +20,13 @@
             <ShotSpread>0.04</ShotSpread>
             <SwayFactor>1.3</SwayFactor>
         </statBases>
-        <recipeMaker>
+		<recipeMaker inherit="False" />
+        <!-- <recipeMaker>
             <researchPrerequisites>
       			<li>PrecisionRifling</li>
       			<li>DMS_EquipmentElite</li>
     		</researchPrerequisites>
-		</recipeMaker>
+		</recipeMaker> -->
 		<costList>
 			<Tungsteel>55</Tungsteel>
 			<ComponentIndustrial>3</ComponentIndustrial>

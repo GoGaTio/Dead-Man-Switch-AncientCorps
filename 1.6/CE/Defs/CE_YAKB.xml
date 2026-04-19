@@ -19,11 +19,12 @@
             <ShotSpread>0.05</ShotSpread>
             <SwayFactor>1.65</SwayFactor>
         </statBases>
-        <recipeMaker>
+		<recipeMaker inherit="False" />
+        <!-- <recipeMaker>
             <researchPrerequisites>
                 <li>MultibarrelWeapons</li>
             </researchPrerequisites>
-        </recipeMaker>
+        </recipeMaker> -->
 		<costList>
 			<Tungsteel>130</Tungsteel>
 			<ComponentIndustrial>8</ComponentIndustrial>
