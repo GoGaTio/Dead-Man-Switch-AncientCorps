@@ -33,11 +33,11 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<costList>
 			<Tungsteel>90</Tungsteel>
-			<ComponentStamped>5</ComponentStamped>		
-		</costList>	
+			<ComponentStamped>5</ComponentStamped>
+		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -100,7 +100,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>PrecisionRifling</li>
@@ -108,8 +108,8 @@
 		</recipeMaker> -->
 		<costList>
 			<Tungsteel>115</Tungsteel>
-			<ComponentStamped>6</ComponentStamped>		
-		</costList>	
+			<ComponentStamped>6</ComponentStamped>
+		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -138,7 +138,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_DMS_VladimirovMG</defName>
 		<label>vladimirov HMG bullet</label>
@@ -192,7 +192,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.12</MoveSpeed>
 		</equippedStatOffsets>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>DMS_EquipmentHeavy</li>
@@ -200,8 +200,8 @@
 		</recipeMaker> -->
 		<costList>
 			<Tungsteel>95</Tungsteel>
-			<ComponentStamped>5</ComponentStamped>		
-		</costList>	
+			<ComponentStamped>5</ComponentStamped>
+		</costList>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -253,7 +253,7 @@
 			<AccuracyLong>0.38</AccuracyLong>
 			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<!-- <recipeMaker>
 			<skillRequirements>
 				<Crafting>8</Crafting>
@@ -326,13 +326,13 @@
 		<statBases>
 			<Mass>265</Mass>
 			<WorkToMake>120000</WorkToMake>
-		    <AccuracyTouch>0.89</AccuracyTouch>
-		    <AccuracyShort>1.00</AccuracyShort>
-		    <AccuracyMedium>1.00</AccuracyMedium>
-		    <AccuracyLong>0.99</AccuracyLong>
-		    <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.89</AccuracyTouch>
+			<AccuracyShort>1.00</AccuracyShort>
+			<AccuracyMedium>1.00</AccuracyMedium>
+			<AccuracyLong>0.99</AccuracyLong>
+			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>DMS_Synthroid</li>
@@ -352,8 +352,8 @@
 			<li>
 				<compClass>CompEquippable</compClass>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Styleable" />
 		</comps>
 		<verbs>
 			<li>

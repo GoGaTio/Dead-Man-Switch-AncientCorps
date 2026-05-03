@@ -19,7 +19,7 @@
             <ShotSpread>0.05</ShotSpread>
             <SwayFactor>1.65</SwayFactor>
         </statBases>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
         <!-- <recipeMaker>
             <researchPrerequisites>
                 <li>MultibarrelWeapons</li>

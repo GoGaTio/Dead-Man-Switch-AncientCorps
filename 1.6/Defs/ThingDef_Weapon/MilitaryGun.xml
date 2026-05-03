@@ -26,7 +26,7 @@
 			<Mass>2.2</Mass>
 			<RangedWeapon_Cooldown>1.62</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False"/>
 		<costList>
 			<Steel>37</Steel>
 			<ComponentStamped>1</ComponentStamped>
@@ -105,7 +105,7 @@
 		<equippedStatOffsets>
 			<HuntingStealth>0.25</HuntingStealth>
 		</equippedStatOffsets>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<costList>
 			<Steel>55</Steel>
 			<ComponentStamped>2</ComponentStamped>
@@ -205,7 +205,7 @@
 		<equippedStatOffsets>
 			<HuntingStealth>0.75</HuntingStealth>
 		</equippedStatOffsets>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<costList>
 			<Steel>65</Steel>
 			<ComponentStamped>3</ComponentStamped>
@@ -298,7 +298,7 @@
 			<AccuracyLong>0.5</AccuracyLong>
 			<RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>GasOperation</li>
@@ -370,7 +370,7 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
 		</statBases>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>GasOperation</li>
@@ -460,7 +460,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>		
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>PrecisionRifling</li>
@@ -525,7 +525,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
 		<!-- <recipeMaker>
 			<researchPrerequisites>
 				<li>PrecisionRifling</li>

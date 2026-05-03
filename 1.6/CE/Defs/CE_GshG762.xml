@@ -19,7 +19,7 @@
             <ShotSpread>0.05</ShotSpread>
             <SwayFactor>1.58</SwayFactor>
         </statBases>
-		<recipeMaker inherit="False" />
+		<recipeMaker Inherit="False" />
         <!-- <recipeMaker>
 			<skillRequirements>
 				<Crafting>8</Crafting>
