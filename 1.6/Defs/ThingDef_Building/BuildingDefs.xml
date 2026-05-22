@@ -22,7 +22,7 @@
     <pathCost>120</pathCost>
     <defaultPlacingRot>2</defaultPlacingRot>
     <passability>PassThroughOnly</passability>
-    <!-- <designationCategory>DMSAC</designationCategory> -->
+    <designationCategory>FFF_DevCategory</designationCategory>
   </ThingDef>
 
   <ThingDef ParentName="DMSAC_BaseBuilding" Name="DMSACDoorBase" Abstract="True">
@@ -45,7 +45,11 @@
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>true</blockLight>
     <drawerType>RealtimeOnly</drawerType>
+    <passability>Standable</passability>
     <building>
+      <poweredDoorOpenSpeedFactor>4</poweredDoorOpenSpeedFactor>
+      <unpoweredDoorOpenSpeedFactor>2</unpoweredDoorOpenSpeedFactor>
+      <unpoweredDoorCloseSpeedFactor>2</unpoweredDoorCloseSpeedFactor>
       <isInert>true</isInert>
       <canPlaceOverWall>true</canPlaceOverWall>
       <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
@@ -99,22 +103,6 @@
       <li>PlaceWorker_GlowRadius</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-  </ThingDef>
-
-  <ThingDef ParentName="DMSAC_BaseBuilding">
-    <defName>DMSAC_Building_RollingDoor</defName>
-    <label>rolling door</label>
-    <description>a locked rolling door.</description>
-    <graphicData>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <texPath>Things/Building/door/RollingDoor</texPath>
-      <drawOffset>(0,0,0)</drawOffset>
-      <drawSize>(4,1)</drawSize>
-    </graphicData>
-    <size>(4,1)</size>
-    <fillPercent>1</fillPercent>
-    <staticSunShadowHeight>1</staticSunShadowHeight>
-    <passability>Impassable</passability>
   </ThingDef>
 
   <ThingDef ParentName="DMSAC_BaseBuilding">
@@ -301,11 +289,11 @@
   <ThingDef ParentName="DMSAC_BaseBuilding">
     <defName>DMSAC_Building_LiftShaft</defName>
     <label>lift shaft</label>
-    <!-- 一個通向地下區域的大型電梯井，按照大小足以運輸載具，不過很顯然需要通行代碼才能夠激活。 -->
     <description>A large elevator shaft leads to the underground area, large enough to transport vehicles, but apparently there is no way to activate it.</description>
     <rotatable>false</rotatable>
     <defaultPlacingRot>North</defaultPlacingRot>
     <noRightClickDraftAttack>true</noRightClickDraftAttack>
+    <thingClass>Fortified.FacilityEntrance</thingClass>
     <graphicData>
       <texPath>Things/Building/liftShaft</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -319,20 +307,29 @@
     <building>
       <isTargetable>false</isTargetable>
     </building>
+    <portal>
+      <pocketMapGenerator>DMSAC_UndergroundFacility</pocketMapGenerator>
+      <exitDef>DMSAC_Building_LiftShaft_Bottom</exitDef>
+      <pocketMapSize>150</pocketMapSize>
+    </portal>
+    <inspectorTabs>
+      <li>ITab_ContentsMapPortal</li>
+    </inspectorTabs>
     <disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
     <fillPercent>0</fillPercent>
     <useHitPoints>false</useHitPoints>
     <passability>Impassable</passability>
+    <holdsRoof>true</holdsRoof>
   </ThingDef>
 
-  <ThingDef ParentName="DMSAC_BaseBuilding">
+  <ThingDef ParentName="PocketMapExit">
     <defName>DMSAC_Building_LiftShaft_Bottom</defName>
     <label>lift Shaft</label>
-    <!-- 一個通向地下區域的大型電梯井，按照大小足以運輸載具，不過很顯然需要通行代碼才能夠激活。 -->
     <description>A large elevator shaft leads to the underground area, large enough to transport vehicles, but apparently there is no way to activate it.</description>
     <rotatable>false</rotatable>
     <defaultPlacingRot>North</defaultPlacingRot>
     <noRightClickDraftAttack>true</noRightClickDraftAttack>
+    <thingClass>Fortified.FacilityExit</thingClass>
     <graphicData>
       <texPath>Things/Building/liftShaft_Bottom</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -345,17 +342,22 @@
     <size>(9,9)</size>
     <building>
       <isTargetable>false</isTargetable>
+      <claimable>false</claimable>
+      <repairable>false</repairable>
+      <deconstructible>false</deconstructible>
+      <neverBuildable>true</neverBuildable>
     </building>
+    <pathCost>120</pathCost>
     <disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
     <fillPercent>0</fillPercent>
     <useHitPoints>false</useHitPoints>
     <passability>Impassable</passability>
+    <holdsRoof>true</holdsRoof>
   </ThingDef>
 
-  <ThingDef ParentName="DMSAC_BaseBuilding">
+  <!--<ThingDef ParentName="PocketMapExit">
     <defName>DMSAC_Building_LiftShaft_Bottom_B</defName>
     <label>lift Shaft</label>
-    <!-- 一個通向地下區域的大型電梯井，按照大小足以運輸載具，不過很顯然需要通行代碼才能夠激活。 -->
     <description>A large elevator shaft leads to the underground area, large enough to transport vehicles, but apparently there is no way to activate it.</description>
     <rotatable>false</rotatable>
     <defaultPlacingRot>North</defaultPlacingRot>
@@ -372,12 +374,18 @@
     <size>(9,9)</size>
     <building>
       <isTargetable>false</isTargetable>
+      <claimable>false</claimable>
+      <repairable>false</repairable>
+      <deconstructible>false</deconstructible>
+      <neverBuildable>true</neverBuildable>
     </building>
+    <pathCost>120</pathCost>
     <ignoreConfigErrors>true</ignoreConfigErrors>
     <fillPercent>0</fillPercent>
     <useHitPoints>false</useHitPoints>
     <passability>Impassable</passability>
-  </ThingDef>
+    <holdsRoof>true</holdsRoof>
+  </ThingDef>-->
 
   <!--裝飾性殘骸。 -->
   <ThingDef ParentName="DMSAC_BaseBuilding" Name="BaseDerelictMech" Abstract="true">
@@ -1319,6 +1327,7 @@
     <fillPercent>1</fillPercent>
     <rotatable>false</rotatable>
     <useHitPoints>false</useHitPoints>
+    <holdsRoof>true</holdsRoof>
     <costList>
       <Tungsteel>250</Tungsteel>
       <Steel>350</Steel>

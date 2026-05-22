@@ -336,7 +336,7 @@
 
   <Fortified.Structures.SymbolDef>
     <defName>DMSAC_Building_RollingDoor_South</defName>
-    <thing>DMSAC_Building_RollingDoor</thing>
+    <thing>DMS_RollingDoor_Quadruple</thing>
     <rotation>South</rotation>
   </Fortified.Structures.SymbolDef>
 
@@ -430,7 +430,7 @@
 
   <Fortified.Structures.SymbolDef>
     <defName>DMSAC_Building_RollingDoor_East</defName>
-    <thing>DMSAC_Building_RollingDoor</thing>
+    <thing>DMS_RollingDoor_Quadruple</thing>
     <rotation>East</rotation>
   </Fortified.Structures.SymbolDef>
 
@@ -448,7 +448,7 @@
 
   <Fortified.Structures.SymbolDef>
     <defName>DMSAC_Building_RollingDoor_West</defName>
-    <thing>DMSAC_Building_RollingDoor</thing>
+    <thing>DMS_RollingDoor_Quadruple</thing>
     <rotation>West</rotation>
   </Fortified.Structures.SymbolDef>
 
@@ -506,7 +506,7 @@
 
   <Fortified.Structures.SymbolDef>
     <defName>DMSAC_Building_RollingDoor_North</defName>
-    <thing>DMSAC_Building_RollingDoor</thing>
+    <thing>DMS_RollingDoor_Quadruple</thing>
   </Fortified.Structures.SymbolDef>
 
   <Fortified.Structures.SymbolDef>
