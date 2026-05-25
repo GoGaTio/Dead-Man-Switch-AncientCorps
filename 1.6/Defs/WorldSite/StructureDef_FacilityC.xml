@@ -2059,6 +2059,12 @@
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingRect">
         <def>DMSAC_Wall_A</def>
+        <pos>(32, 0, 75)</pos>
+        <size>(2, 1)</size>
+        <rot>2</rot>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_ThingRect">
+        <def>DMSAC_Wall_A</def>
         <pos>(3, 0, 76)</pos>
         <size>(2, 1)</size>
         <rot>2</rot>
@@ -2079,6 +2085,12 @@
         <def>DMSAC_Wall_A</def>
         <pos>(24, 0, 76)</pos>
         <size>(4, 1)</size>
+        <rot>2</rot>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_ThingRect">
+        <def>DMSAC_Wall_A</def>
+        <pos>(33, 0, 76)</pos>
+        <size>(1, 2)</size>
         <rot>2</rot>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingRect">
@@ -2413,7 +2425,6 @@
           <li>(15, 0, 54)</li>
           <li>(53, 0, 62)</li>
           <li>(26, 0, 75)</li>
-          <li>(32, 0, 75)</li>
           <li>(45, 0, 76)</li>
           <li>(54, 0, 76)</li>
           <li>(63, 0, 76)</li>
@@ -2488,7 +2499,6 @@
           <li>(32, 0, 8)</li>
           <li>(32, 0, 13)</li>
           <li>(32, 0, 59)</li>
-          <li>(32, 0, 76)</li>
           <li>(45, 0, 8)</li>
           <li>(45, 0, 13)</li>
           <li>(45, 0, 39)</li>
@@ -2563,6 +2573,7 @@
           <li>(49, 0, 75)</li>
           <li>(63, 0, 75)</li>
           <li>(26, 0, 77)</li>
+          <li>(33, 0, 78)</li>
           <li>(70, 0, 79)</li>
           <li>(70, 0, 92)</li>
           <li>(70, 0, 98)</li>
@@ -2603,16 +2614,6 @@
         <pos>(7, 0, 8)</pos>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
-        <def>DMSAC_Building_RoadBlock</def>
-        <rot>2</rot>
-        <posList>
-          <li>(88, 0, 4)</li>
-          <li>(94, 0, 4)</li>
-          <li>(85, 0, 15)</li>
-          <li>(80, 0, 17)</li>
-        </posList>
-      </li>
-      <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>DMSAC_WallLamp</def>
         <rot>2</rot>
         <posList>
@@ -2634,6 +2635,17 @@
           <li>(37, 0, 89)</li>
           <li>(46, 0, 89)</li>
           <li>(55, 0, 89)</li>
+        </posList>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_ThingScatter">
+        <def>DMSAC_Building_RoadBlock</def>
+        <posList>
+          <li>(69, 0, 7)</li>
+          <li>(69, 0, 13)</li>
+          <li>(76, 0, 7)</li>
+          <li>(76, 0, 13)</li>
+          <li>(83, 0, 7)</li>
+          <li>(83, 0, 13)</li>
         </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
@@ -2757,7 +2769,6 @@
           <li>(8, 0, 15)</li>
           <li>(71, 0, 46)</li>
           <li>(94, 0, 46)</li>
-          <li>(28, 0, 73)</li>
         </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
@@ -2806,12 +2817,26 @@
         </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
+        <def>DMSAC_Building_InactivatedSmallMech</def>
+        <rot>2</rot>
+        <posList>
+          <li>(50, 0, 15)</li>
+          <li>(27, 0, 17)</li>
+          <li>(58, 0, 18)</li>
+          <li>(69, 0, 22)</li>
+          <li>(62, 0, 27)</li>
+          <li>(53, 0, 30)</li>
+          <li>(49, 0, 31)</li>
+          <li>(85, 0, 44)</li>
+        </posList>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>DMSAC_Building_InactivatedMediumMech</def>
         <rot>2</rot>
         <posList>
           <li>(53, 0, 17)</li>
+          <li>(51, 0, 23)</li>
           <li>(61, 0, 30)</li>
-          <li>(38, 0, 98)</li>
         </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
@@ -2888,6 +2913,7 @@
           <li>(42, 0, 76)</li>
           <li>(51, 0, 76)</li>
           <li>(60, 0, 76)</li>
+          <li>(30, 0, 77)</li>
         </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
@@ -2964,6 +2990,13 @@
           <li>(68, 0, 25)</li>
           <li>(68, 0, 27)</li>
           <li>(56, 0, 82)</li>
+        </posList>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_ThingScatter">
+        <def>DMSAC_Building_InactivatedMediumMech</def>
+        <posList>
+          <li>(77, 0, 24)</li>
+          <li>(49, 0, 70)</li>
         </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
@@ -3079,11 +3112,6 @@
           <li>(55, 0, 95)</li>
         </posList>
       </li>
-      <li Class="Fortified.Structures.FFF_Element_Thing">
-        <def>DMSAC_Building_InactivatedSmallMech</def>
-        <pos>(53, 0, 30)</pos>
-        <rot>2</rot>
-      </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>DMSAC_Building_RoadBlock</def>
         <rot>3</rot>
@@ -3152,6 +3180,11 @@
         <def>DMSAC_GestaltEngine</def>
         <pos>(28, 0, 38)</pos>
       </li>
+      <li Class="Fortified.Structures.FFF_Element_Thing">
+        <def>DMSAC_Building_InactivatedSmallMech</def>
+        <pos>(74, 0, 36)</pos>
+        <rot>1</rot>
+      </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>DMS_RollingDoor_Triple</def>
         <rot>3</rot>
@@ -3166,6 +3199,14 @@
           <li>(66, 0, 38)</li>
           <li>(71, 0, 38)</li>
           <li>(31, 0, 58)</li>
+        </posList>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_ThingScatter">
+        <def>DMSAC_Building_InactivatedMediumMech</def>
+        <rot>1</rot>
+        <posList>
+          <li>(78, 0, 40)</li>
+          <li>(86, 0, 68)</li>
         </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
@@ -3294,16 +3335,28 @@
         <stuff>Cloth</stuff>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
+        <def>DMSAC_Building_InactivatedMediumMech</def>
+        <rot>3</rot>
+        <posList>
+          <li>(77, 0, 50)</li>
+          <li>(77, 0, 67)</li>
+        </posList>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>DMSAC_Building_InactivatedLargeMech</def>
         <rot>1</rot>
         <posList>
           <li>(86, 0, 51)</li>
-          <li>(47, 0, 96)</li>
+          <li>(86, 0, 59)</li>
+          <li>(86, 0, 75)</li>
         </posList>
       </li>
-      <li Class="Fortified.Structures.FFF_Element_Thing">
+      <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>DMS_RollingDoor_Triple</def>
-        <pos>(28, 0, 52)</pos>
+        <posList>
+          <li>(28, 0, 52)</li>
+          <li>(35, 0, 77)</li>
+        </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_Thing">
         <def>Couch</def>
@@ -3359,6 +3412,14 @@
         <pos>(35, 0, 58)</pos>
         <rot>1</rot>
         <stuff>Steel</stuff>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_ThingScatter">
+        <def>DMSAC_Building_InactivatedLargeMech</def>
+        <rot>3</rot>
+        <posList>
+          <li>(77, 0, 59)</li>
+          <li>(76, 0, 75)</li>
+        </posList>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>DMSAC_ArcFurnace</def>
@@ -3483,11 +3544,6 @@
         <def>DMS_ReactionChamber</def>
         <pos>(61, 0, 66)</pos>
       </li>
-      <li Class="Fortified.Structures.FFF_Element_Thing">
-        <def>DMSAC_Building_InactivatedLargeMech</def>
-        <pos>(76, 0, 67)</pos>
-        <rot>3</rot>
-      </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>SchoolDesk</def>
         <stuff>WoodLog</stuff>
@@ -3495,10 +3551,6 @@
           <li>(45, 0, 67)</li>
           <li>(49, 0, 67)</li>
         </posList>
-      </li>
-      <li Class="Fortified.Structures.FFF_Element_Thing">
-        <def>DMSAC_Building_InactivatedLargeMech</def>
-        <pos>(36, 0, 70)</pos>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
         <def>DMSAC_Crate</def>
@@ -3515,6 +3567,14 @@
         <pos>(45, 0, 71)</pos>
         <rot>1</rot>
         <stuff>Steel</stuff>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_Thing">
+        <def>DMSAC_Building_InactivatedLargeMech</def>
+        <pos>(43, 0, 72)</pos>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_Thing">
+        <def>DMSAC_Building_InactivatedSmallMech</def>
+        <pos>(60, 0, 71)</pos>
       </li>
       <li Class="Fortified.Structures.FFF_Element_Thing">
         <def>Shelf</def>
@@ -3572,7 +3632,7 @@
       </li>
       <li Class="Fortified.Structures.FFF_Element_Thing">
         <def>DMSAC_Building_InactivatedLargeMech</def>
-        <pos>(64, 0, 95)</pos>
+        <pos>(64, 0, 94)</pos>
         <rot>2</rot>
       </li>
       <li Class="Fortified.Structures.FFF_Element_ThingScatter">
@@ -6231,6 +6291,138 @@
         <def>RoofRockThick</def>
         <pos>(0, 0, 0)</pos>
         <size>(100, 100)</size>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>39</sendSignalRadius>
+        <pos>(70, 0, 10)</pos>
+        <pointsRange>2000~2000</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Zabor>10</DMS_Mech_Zabor>
+          <DMS_Mech_Zabor_Shkatulka>5</DMS_Mech_Zabor_Shkatulka>
+          <DMS_Mech_Molot>20</DMS_Mech_Molot>
+          <DMS_Mech_Mushketer_AR>15</DMS_Mech_Mushketer_AR>
+          <DMS_Mech_Mushketer_SAR>10</DMS_Mech_Mushketer_SAR>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>42</sendSignalRadius>
+        <pos>(89, 0, 11)</pos>
+        <pointsRange>1000~1000</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Mushketer_AR>10</DMS_Mech_Mushketer_AR>
+          <DMS_Mech_Mushketer_SAR>5</DMS_Mech_Mushketer_SAR>
+          <DMS_Mech_Gorod>5</DMS_Mech_Gorod>
+          <DMS_Mech_Zabor>10</DMS_Mech_Zabor>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>-1</sendSignalRadius>
+        <pos>(28, 0, 34)</pos>
+        <pointsRange>1000~1000</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Molot>10</DMS_Mech_Molot>
+          <DMS_Mech_Mushketer_AR>30</DMS_Mech_Mushketer_AR>
+          <DMS_Mech_Gorod>15</DMS_Mech_Gorod>
+          <DMS_Mech_Zabor>5</DMS_Mech_Zabor>
+          <DMS_Mech_Zabor_Shkatulka>5</DMS_Mech_Zabor_Shkatulka>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>32</sendSignalRadius>
+        <pos>(87, 0, 36)</pos>
+        <pointsRange>1500~1500</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Mushketer_AR>10</DMS_Mech_Mushketer_AR>
+          <DMS_Mech_Mushketer_SAR>5</DMS_Mech_Mushketer_SAR>
+          <DMS_Mech_Molot>5</DMS_Mech_Molot>
+          <DMS_Mech_Zabor>5</DMS_Mech_Zabor>
+          <DMS_Mech_Gorod>5</DMS_Mech_Gorod>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>22</sendSignalRadius>
+        <pos>(52, 0, 47)</pos>
+        <pointsRange>400~400</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Mushketer_AR>10</DMS_Mech_Mushketer_AR>
+          <DMS_Mech_Mushketer_SAR>10</DMS_Mech_Mushketer_SAR>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>28</sendSignalRadius>
+        <pos>(47, 0, 59)</pos>
+        <pointsRange>600~600</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Mushketer_AR>10</DMS_Mech_Mushketer_AR>
+          <DMS_Mech_Zabor>5</DMS_Mech_Zabor>
+          <DMS_Mech_Gorod>5</DMS_Mech_Gorod>
+          <DMS_Mech_Molot>5</DMS_Mech_Molot>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>29</sendSignalRadius>
+        <pos>(13, 0, 65)</pos>
+        <pointsRange>500~500</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Molot>10</DMS_Mech_Molot>
+          <DMS_Mech_Mushketer_SAR>10</DMS_Mech_Mushketer_SAR>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>49</sendSignalRadius>
+        <pos>(92, 0, 83)</pos>
+        <pointsRange>3000~3000</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Krepost>5</DMS_Mech_Krepost>
+          <DMS_Mech_Molot>15</DMS_Mech_Molot>
+          <DMS_Mech_Gorod_Cornetist>10</DMS_Mech_Gorod_Cornetist>
+          <DMS_Mech_Gorod_Organist>10</DMS_Mech_Gorod_Organist>
+          <DMS_Mech_Gorod_Piper>5</DMS_Mech_Gorod_Piper>
+          <DMS_Mech_Mushketer_AR>15</DMS_Mech_Mushketer_AR>
+          <DMS_Mech_Mushketer_SAR>10</DMS_Mech_Mushketer_SAR>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>-1</sendSignalRadius>
+        <pos>(50, 0, 85)</pos>
+        <pointsRange>1000~1000</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Mushketer_SAR>15</DMS_Mech_Mushketer_SAR>
+          <DMS_Mech_Zabor>5</DMS_Mech_Zabor>
+          <DMS_Mech_Molot>5</DMS_Mech_Molot>
+          <DMS_Mech_Gorod>5</DMS_Mech_Gorod>
+          <DMS_Mech_Gorod_Organist>5</DMS_Mech_Gorod_Organist>
+          <DMS_Mech_Gorod_Cornetist>5</DMS_Mech_Gorod_Cornetist>
+        </options>
+      </li>
+      <li Class="Fortified.Structures.FFF_Element_PawnGroup">
+        <factionDef>DMS_AncientCorps</factionDef>
+        <sendSignalRadius>46</sendSignalRadius>
+        <pos>(15, 0, 86)</pos>
+        <pointsRange>500~500</pointsRange>
+        <lordTag>DMSAC_Facility</lordTag>
+        <options>
+          <DMS_Mech_Molot>10</DMS_Mech_Molot>
+          <DMS_Mech_Mushketer_SAR>10</DMS_Mech_Mushketer_SAR>
+        </options>
       </li>
     </elements>
   </Fortified.Structures.FFF_StructureDef>

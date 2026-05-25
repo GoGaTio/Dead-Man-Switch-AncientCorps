@@ -294,6 +294,7 @@
     <defaultPlacingRot>North</defaultPlacingRot>
     <noRightClickDraftAttack>true</noRightClickDraftAttack>
     <thingClass>Fortified.FacilityEntrance</thingClass>
+    <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Things/Building/liftShaft</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -330,6 +331,7 @@
     <defaultPlacingRot>North</defaultPlacingRot>
     <noRightClickDraftAttack>true</noRightClickDraftAttack>
     <thingClass>Fortified.FacilityExit</thingClass>
+    <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Things/Building/liftShaft_Bottom</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -1382,7 +1384,7 @@
     <rotatable>false</rotatable>
     <canOverlapZones>false</canOverlapZones>
     <drawerType>MapMeshAndRealTime</drawerType>
-    <fillPercent>0.7</fillPercent>
+    <fillPercent>1</fillPercent>
     <graphicData>
       <texPath>Things/Building/computeArray</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1405,6 +1407,7 @@
       <Flammability>0.25</Flammability>
     </statBases>
     <size>(2,2)</size>
+    <holdsRoof>true</holdsRoof>
     <costList>
       <Steel>200</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
